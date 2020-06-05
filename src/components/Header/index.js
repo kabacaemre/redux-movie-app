@@ -12,13 +12,6 @@ function Header() {
                     <Link className="logo" to="/" exact="true">
                         <img src={logo} alt="logo" />
                     </Link>
-                    <nav className="navMenu">
-                        <ul>
-                            <li>
-                                <Link to="/movies/detail">New Movie</Link>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </header>
